@@ -1,0 +1,7 @@
+version : '3'
+services:
+  springruben:
+    build: .
+    image: spring-ruben:latest
+    ports:
+      - '8080:8080'
